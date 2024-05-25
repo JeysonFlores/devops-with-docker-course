@@ -1,0 +1,12 @@
+Script started on Fri May 24 18:45:31 2024
+Command: docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+Command exit status: 0
+Script done on Fri May 24 18:45:31 2024
+Script started on Fri May 24 18:45:38 2024
+Command: docker image ls
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+
+Command exit status: 0
+Script done on Fri May 24 18:45:38 2024
