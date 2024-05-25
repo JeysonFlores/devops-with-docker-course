@@ -1,0 +1,12 @@
+Script started on Sat May 25 16:28:22 2024
+Command: docker run -d --name exercise-1.10 -p 5500:8080 devopsdockeruh/simple-web-service server
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+e336b39357bab5352f4c2ee67bf98ab6bcdec048312904dafdfc9a7badc3de2f
+
+Command exit status: 0
+Script done on Sat May 25 16:28:22 2024
+Script started on Sat May 25 16:28:38 2024
+Command: curl localhost:5500/
+{"message":"You connected to the following path: /","path":"/"}
+Command exit status: 0
+Script done on Sat May 25 16:28:38 2024
