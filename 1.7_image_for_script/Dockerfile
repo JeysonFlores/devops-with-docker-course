@@ -11,7 +11,7 @@ COPY script.sh .
 RUN apt update
 
 # Install cURL
-Run apt install -y curl
+RUN apt install -y curl
 
 # Executing the script!
 CMD ./script.sh
