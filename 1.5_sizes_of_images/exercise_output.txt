@@ -1,0 +1,51 @@
+Script started on Fri May 24 22:54:21 2024
+Command: docker run -d -t --name exercise-1.5 devopsdockeruh/simple-web-service:alpine
+Unable to find image 'devopsdockeruh/simple-web-service:alpine' locally
+alpine: Pulling from devopsdockeruh/simple-web-service
+
+[1A[2Kba3557a56b15: Pulling fs layer [1B
+[1A[2K1dace236434b: Pulling fs layer [1B
+[1A[2K4f4fb700ef54: Pulling fs layer [1B[3A[2Kba3557a56b15: Downloading [>                                                  ]  28.75kB/2.812MB[3B[1A[2K4f4fb700ef54: Downloading [==================================================>]      32B/32B[1B[1A[2K4f4fb700ef54: Verifying Checksum [1B[1A[2K4f4fb700ef54: Download complete [1B[2A[2K1dace236434b: Downloading [>                                                  ]   51.2kB/5.117MB[2B[3A[2Kba3557a56b15: Downloading [===>                                               ]  207.7kB/2.812MB[3B[3A[2Kba3557a56b15: Downloading [=========>                                         ]  506.1kB/2.812MB[3B[2A[2K1dace236434b: Downloading [==>                                                ]    214kB/5.117MB[2B[3A[2Kba3557a56b15: Downloading [===========>                                       ]    670kB/2.812MB[3B[2A[2K1dace236434b: Downloading [===>                                               ]  406.3kB/5.117MB[2B[3A[2Kba3557a56b15: Downloading [=============>                                     ]  768.3kB/2.812MB[3B[2A[2K1dace236434b: Downloading [=====>                                             ]  537.4kB/5.117MB[2B[3A[2Kba3557a56b15: Downloading [=================>                                 ]  964.9kB/2.812MB[3B[2A[2K1dace236434b: Downloading [======>                                            ]  668.5kB/5.117MB[2B[3A[2Kba3557a56b15: Downloading [==================>                                ]  1.067MB/2.812MB[3B[2A[2K1dace236434b: Downloading [=======>                                           ]  799.6kB/5.117MB[2B[3A[2Kba3557a56b15: Downloading [====================>                              ]  1.166MB/2.812MB[3B[2A[2K1dace236434b: Downloading [=========>                                         ]  930.6kB/5.117MB[2B[3A[2Kba3557a56b15: Downloading [=======================>                           ]  1.297MB/2.812MB[3B[2A[2K1dace236434b: Downloading [==========>                                        ]  1.062MB/5.117MB[2B[3A[2Kba3557a56b15: Downloading [========================>                          ]  1.395MB/2.812MB[3B[2A[2K1dace236434b: Downloading [===========>                                       ]  1.193MB/5.117MB[2B[3A[2Kba3557a56b15: Downloading [=================================>                 ]  1.895MB/2.812MB[3B[2A[2K1dace236434b: Downloading [============>                                      ]  1.324MB/5.117MB[2B[3A[2Kba3557a56b15: Downloading [====================================>              ]  2.059MB/2.812MB[3B[3A[2Kba3557a56b15: Downloading [=======================================>           ]  2.222MB/2.812MB[3B[2A[2K1dace236434b: Downloading [==============>                                    ]  1.455MB/5.117MB[2B[3A[2Kba3557a56b15: Downloading [==========================================>        ]  2.386MB/2.812MB[3B[2A[2K1dace236434b: Downloading [===============>                                   ]  1.586MB/5.117MB[2B[3A[2Kba3557a56b15: Downloading [=============================================>     ]   2.55MB/2.812MB[3B[3A[2Kba3557a56b15: Downloading [================================================>  ]  2.718MB/2.812MB[3B[2A[2K1dace236434b: Downloading [================>                                  ]  1.717MB/5.117MB[2B[3A[2Kba3557a56b15: Downloading [==================================================>]  2.812MB/2.812MB[3B[3A[2Kba3557a56b15: Verifying Checksum [3B[3A[2Kba3557a56b15: Download complete [3B[3A[2Kba3557a56b15: Extracting [>                                                  ]  32.77kB/2.812MB[3B[3A[2Kba3557a56b15: Extracting [==================================================>]  2.812MB/2.812MB[3B[3A[2Kba3557a56b15: Pull complete [3B[2A[2K1dace236434b: Downloading [===================>                               ]  1.979MB/5.117MB[2B[2A[2K1dace236434b: Downloading [=====================>                             ]  2.176MB/5.117MB[2B[2A[2K1dace236434b: Downloading [=======================>                           ]  2.372MB/5.117MB[2B[2A[2K1dace236434b: Downloading [=========================>                         ]  2.569MB/5.117MB[2B[2A[2K1dace236434b: Downloading [===========================>                       ]  2.766MB/5.117MB[2B[2A[2K1dace236434b: Downloading [============================>                      ]  2.962MB/5.117MB[2B[2A[2K1dace236434b: Downloading [==============================>                    ]  3.159MB/5.117MB[2B[2A[2K1dace236434b: Downloading [=================================>                 ]  3.421MB/5.117MB[2B[2A[2K1dace236434b: Downloading [===================================>               ]  3.683MB/5.117MB[2B[2A[2K1dace236434b: Downloading [=====================================>             ]   3.88MB/5.117MB[2B[2A[2K1dace236434b: Downloading [========================================>          ]  4.142MB/5.117MB[2B[2A[2K1dace236434b: Downloading [===========================================>       ]  4.404MB/5.117MB[2B[2A[2K1dace236434b: Downloading [============================================>      ]  4.601MB/5.117MB[2B[2A[2K1dace236434b: Downloading [==============================================>    ]  4.797MB/5.117MB[2B[2A[2K1dace236434b: Downloading [=================================================> ]  5.059MB/5.117MB[2B[2A[2K1dace236434b: Downloading [==================================================>]  5.117MB/5.117MB[2B[2A[2K1dace236434b: Verifying Checksum [2B[2A[2K1dace236434b: Download complete [2B[2A[2K1dace236434b: Extracting [>                                                  ]  65.54kB/5.117MB[2B[2A[2K1dace236434b: Extracting [==================================================>]  5.117MB/5.117MB[2B[2A[2K1dace236434b: Pull complete [2B[1A[2K4f4fb700ef54: Extracting [==================================================>]      32B/32B[1B[1A[2K4f4fb700ef54: Extracting [==================================================>]      32B/32B[1B[1A[2K4f4fb700ef54: Pull complete [1BDigest: sha256:dd4d367476f86b7d7579d3379fe446ae5dfce25480903fb0966fc2e5257e0543
+Status: Downloaded newer image for devopsdockeruh/simple-web-service:alpine
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+3c5484f7dc17410d5da955bce6caf958bdaf0bff8139a05a3a97d54a527c7ef0
+
+Command exit status: 0
+Script done on Fri May 24 22:54:28 2024
+Script started on Fri May 24 22:54:52 2024
+Command: docker image ls
+REPOSITORY                          TAG               IMAGE ID       CREATED       SIZE
+ubuntu                              latest            fabf3a8d4949   3 weeks ago   98.8MB
+ubuntu                              22.04             7423357ed609   3 weeks ago   69.2MB
+ubuntu                              jammy_jellyfish   7423357ed609   3 weeks ago   69.2MB
+devopsdockeruh/simple-web-service   ubuntu            4e3362e907d5   3 years ago   83MB
+devopsdockeruh/simple-web-service   alpine            fd312adc88e0   3 years ago   15.7MB
+
+Command exit status: 0
+Script done on Fri May 24 22:54:52 2024
+Script started on Fri May 24 22:55:41 2024
+Command: docker exec -it exercise-1.5 sh
+/usr/src/app # [6ntail -f ./
+server    text.log
+/usr/src/app # tail -f ./[Jtext/usr/src/app # tail -f ./text.log [J
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-05-25 05:55:39 +0000 UTC
+2024-05-25 05:55:41 +0000 UTC
+2024-05-25 05:55:43 +0000 UTC
+2024-05-25 05:55:45 +0000 UTC
+2024-05-25 05:55:47 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-05-25 05:55:49 +0000 UTC
+2024-05-25 05:55:51 +0000 UTC
+2024-05-25 05:55:53 +0000 UTC
+2024-05-25 05:55:55 +0000 UTC
+2024-05-25 05:55:57 +0000 UTC
+^C
+/usr/src/app # [6nexit
+[1m
+What's next?
+[0m  Try Docker Debug for seamless, persistent debugging tools in any container or image → [36mdocker debug exercise-1.5[0m
+  Learn more at https://docs.docker.com/go/debug-cli/
+
+Command exit status: 130
+Script done on Fri May 24 22:56:00 2024
