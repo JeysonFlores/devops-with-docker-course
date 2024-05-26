@@ -4,6 +4,6 @@ DockerHub link: https://hub.docker.com/repository/docker/jeysonflores/spring-app
 
 How to run
 
-´´´shell
+```shell
 docker run -d -p 8080:8080 jeysonflores/spring-app
-´´´
+```
