@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  backend:
+    image: jeysonflores/backend
+    build: ./material-applications/example-backend
+    ports:
+      - 8080:8080
+  
+  frontend:
+    image: jeysonflores/frontend
+    build: ./material-applications/example-frontend
+    ports:
+      - 5050:5050
