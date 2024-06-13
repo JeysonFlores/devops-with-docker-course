@@ -1,9 +1,0 @@
-Script started on Fri May 24 18:42:24 2024
-Command: docker ps -a
-CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS                          PORTS     NAMES
-acb510ef6c67   caddy     "caddy run --config …"   2 minutes ago   Exited (0) About a minute ago             hardcore_mcclintock
-3b3736d11a1a   httpd     "httpd-foreground"       3 minutes ago   Exited (0) About a minute ago             musing_aryabhata
-8d6ea4abfe0f   nginx     "/docker-entrypoint.…"   3 minutes ago   Up 3 minutes                    80/tcp    gifted_wright
-
-Command exit status: 0
-Script done on Fri May 24 18:42:24 2024
